@@ -1,0 +1,3 @@
+/home/osa/Cosc363/Lab_2/CMakeFiles/rebuild_cache.dir
+/home/osa/Cosc363/Lab_2/CMakeFiles/edit_cache.dir
+/home/osa/Cosc363/Lab_2/CMakeFiles/RailwayWorld.out.dir

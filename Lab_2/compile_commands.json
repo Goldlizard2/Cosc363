@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/osa/Cosc363/Lab_2",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/RailwayWorld.out.dir/RailwayWorld.cpp.o -c /home/osa/Cosc363/Lab_2/RailwayWorld.cpp",
+  "file": "/home/osa/Cosc363/Lab_2/RailwayWorld.cpp"
+},
+{
+  "directory": "/home/osa/Cosc363/Lab_2",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/RailwayWorld.out.dir/RailModels.cpp.o -c /home/osa/Cosc363/Lab_2/RailModels.cpp",
+  "file": "/home/osa/Cosc363/Lab_2/RailModels.cpp"
+}
+]

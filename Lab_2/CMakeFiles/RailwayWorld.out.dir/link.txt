@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/RailwayWorld.out.dir/RailwayWorld.cpp.o CMakeFiles/RailwayWorld.out.dir/RailModels.cpp.o  -o RailwayWorld.out  -lGL -lGLU -lglut 

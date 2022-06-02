@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/osa/Cosc363/Lab_2/RailModels.cpp
+cmath
+-
+GL/freeglut.h
+-
+RailModels.h
+/home/osa/Cosc363/Lab_2/RailModels.h
+
+/home/osa/Cosc363/Lab_2/RailModels.h
+
+/home/osa/Cosc363/Lab_2/RailwayWorld.cpp
+math.h
+-
+GL/freeglut.h
+-
+RailModels.h
+/home/osa/Cosc363/Lab_2/RailModels.h
+
