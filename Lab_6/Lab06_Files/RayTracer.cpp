@@ -56,20 +56,17 @@ glm::vec3 trace(Ray ray, int step)
 
 	if (ray.index == FloorIndex)
 	{ // draw checkered plane
-		int squareSize = 5;
+		int squareSize = 2;
 		int sizeZ = (ray.hit.z) / squareSize;
-		int sizeX = (ray.hit.x) / squareSize;
+		int sizeX = (ray.hit.x) + 100 / squareSize;
 		int k = (sizeZ + sizeX) % 2;
 		glm::vec3 floorColor(0);
-		switch (k)
-		{
-		case 0:
-			floorColor = glm::vec3(0, 1, 0);
-			break;
-		default:
+
+		if (k)
+			floorColor = glm::vec3(0.8, 0, 0.8);	
+		else
 			floorColor = glm::vec3(1, 1, 1);
-			break;
-		}
+
 		obj->setColor(floorColor);
 	}
 	// refraction for transparent sphere
